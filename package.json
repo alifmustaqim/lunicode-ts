@@ -1,0 +1,29 @@
+{
+  "name": "lunicode-ts",
+  "version": "1.0.0",
+  "description": "Updated package base on lunicode.js by Robert Gerlach",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alifmustaqim/lunicode-ts.git"
+  },
+  "keywords": [
+    "unicode",
+    "text-mirror",
+    "text-flip"
+  ],
+  "bugs": {
+    "url": "https://github.com/alifmustaqim/lunicode-ts/issues"
+  },
+  "homepage": "https://github.com/alifmustaqim/lunicode-ts",
+  "author": "Alif Mustaqim (AMC)",
+  "license": "ISC"
+}
